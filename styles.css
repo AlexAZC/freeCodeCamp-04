@@ -1,0 +1,274 @@
+*,::after,::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  
+  }
+  html{
+    font-size:62.5%;
+  }
+  p{
+    font-size:1.5rem;
+  }
+  #header{
+    display:flex;
+    height:100%;
+    max-height:60px;
+    width:100%;
+    align-items:center;
+    position:fixed;
+    top:0;
+    background-color:white;
+  }
+  
+  .logo{
+    display:flex;
+    width:63%;
+    height:100%;
+    align-items:center;
+    
+  }
+  .logo #header-img{
+    width:300px;
+    height:34px;
+  }
+  #nav-bar{
+    width:32%;
+    display:flex;
+    justify-content:space-between;
+  }
+  nav .nav-link{
+    font-size:1.5rem;
+    display:block;
+  }
+  
+  
+  #header-img{
+    width:300px;
+  }
+  #nav-bar a{
+    text-decoration:none;
+    color:black;
+    
+  }
+  main{
+    margin-top:50px;
+  }
+  #form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:180px;
+  }
+  
+  h2{
+    font-size:2.5rem;
+    justify-content:center;
+    
+  }
+  form input{
+    margin-bottom:12px;
+    padding:5px;
+  }
+  form input[type="email"]{
+    width:270px;
+    border: 1.2px solid black;
+    background-color:white;
+    margin-top:12px;
+  
+  }
+  form #submit{
+    background-color:#f1c40f;
+    color:black;
+    border:none;
+    font-weight:bold;
+  }
+  .information{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  
+  .icons-text{
+    display:flex;
+    margin-bottom:3.5rem;
+    
+  }
+  .icono{
+    width:5rem;
+  }
+  #first{
+    margin-left:-12.5rem;
+  }
+  .youtube-video{
+    display:flex;
+  justify-content:center;
+  margin:2rem 0 4rem 0
+  }
+  .prices{
+    display:flex;
+  justify-content:space-evenly;
+  margin-bottom:4rem;
+  
+  }
+  .card{
+    border:1px solid black;
+    width:30rem;
+    height:25.4rem;
+    text-align:center;
+  }
+  h4{
+    padding:1.7rem;
+    font-size:1.4em;
+    font-weight:bold;
+    background-color:#ddd;
+    margin-bottom:1.3rem;
+  }
+  .card h2{
+    margin-bottom:1.5rem;
+  }
+  .card p{
+    margin-bottom:0.7rem;
+  }
+  .card button{
+    margin:0.8rem 0;
+    padding:0.6rem 1.5rem;
+  background-color:#f1c40f;
+  border:none;
+  font-size:1.8em;
+  cursor:pointer;
+  }
+  footer{
+    background-color:#ddd;
+  width:85%;
+  margin:0 auto;
+  padding:1.5em 0;
+  
+  }
+  footer a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-size:1.5em;
+  }
+  
+    
+  .final{
+    display:flex;
+  justify-content:flex-end;
+  }
+  .final a{
+    margin-right:1.7em;
+  }
+  .blanco{
+    width:5px;
+    height:5px;
+    position:absolute;
+  
+  }
+  footer p{
+    text-align:right;
+    margin-right:2rem;
+  }
+  @media (min-width:1250px){
+    #header{
+      display:flex;
+      height:100%;
+      max-height:70px;
+      width:100%;
+      align-items:center;
+      position:fixed;
+      top:0;
+      background-color:white;
+    }
+    .logo #header-img{
+        width:380px;
+        height:40px;
+      }
+    
+      #nav-bar{
+        width:40%;
+        display:flex;
+        justify-content:space-evenly;
+      }
+
+    .card{
+    border:1px solid black;
+    width:40rem;
+    height:29.5rem;
+    text-align:center;
+    
+    }
+    h4{
+        padding:2rem;
+        font-size:2rem;
+        font-weight:bold;
+        background-color:#ddd;
+        margin-bottom:1.3rem;
+      }
+
+      .card p{
+        font-size:1.7rem;
+      }
+
+      .card h2{
+        font-size:2.8rem;
+
+      }
+      .card button{
+        margin:0.8rem 0;
+        padding:0.6rem 1.5rem;
+      background-color:#f1c40f;
+      border:none;
+      font-size:2em;
+      cursor:pointer;
+      }
+      form h2{
+        font-size: 3.5rem;
+      }
+      form input{
+        padding:8px
+        
+      }
+      form input[type="email"]{
+        width:300px;
+        border: 1.2px solid black;
+        background-color:white;
+        margin-top:12px;
+        font-size:1.2rem;
+      
+      }
+      form #submit{
+        background-color:#f1c40f;
+        color:black;
+        border:none;
+        font-weight:bold;
+        padding:10px;
+        font-size:1.5rem;
+      }
+      nav .nav-link{
+        font-size:1.6rem;
+        display:block;
+        font-weight: bold;
+
+      }
+      footer p{
+        text-align:right;
+        margin-right:2rem;
+        font-size:1.6rem;
+      }
+      .final a{
+        margin-right:1.7em;
+        font-size: 1.6rem;
+      }
+      main{
+        margin-top:60px;
+      }
+
+
+
+
+  }
